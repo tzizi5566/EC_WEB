@@ -1,0 +1,84 @@
+/*楼层导航*/
+
+.floorNav {
+  width: 40px;
+  height: 200px;
+  font-size: 14px;
+  border: 1px solid #CDD0D4;
+  border-radius: 5px;
+  background: #FFF;
+  position: fixed;
+  top: 50%;
+  left: 40px;
+  margin-top: -100px;
+  display: none;
+  z-index: 1;
+}
+
+.floorNav li {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.floorNav li .fName {
+  color: red;
+  display: none;
+}
+
+.floorNav li .fActive {
+  color: red;
+}
+
+/*右侧导航*/
+
+.rightNav {
+  width: auto;
+  height: 200px;
+  font-size: 14px;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  margin-top: -100px;
+  z-index: 1;
+  display: table;
+}
+
+.rightNav .rightNavInner {
+  height: 40px;
+  display: table-row;
+  cursor: pointer;
+}
+
+.rightNav .rightNavInner div {
+  display: table-cell;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: #B7BBBF;
+  margin: 0.5px 0;
+}
+
+.rightNav .rightNavInner .name {
+  float: right;
+  width: 0;
+}
+
+.rightNav .rightNavInner .icon {
+  width: 40px;
+  float: right;
+}
+
+.rightNav div span {
+  width: 20px;
+  height: 20px;
+  color: #FFF;
+}
+
+.rightNav div img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}

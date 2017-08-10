@@ -1,0 +1,245 @@
+/*banner 包含左侧商品分类 中间轮播图 右侧生活服务*/
+
+.banner {
+  width: 1100px;
+  height: 450px;
+  margin: 0 auto;
+}
+
+/*左侧商品分类*/
+
+.banner .left {
+  width: 210px;
+  height: 100%;
+  float: left;
+  margin-left: -100%;
+}
+
+.banner .left .menu {
+  width: 210px;
+  height: 100%;
+  background: red;
+}
+
+.banner .left .subMenu {
+  width: 640px;
+  height: auto;
+  background: #FFF;
+  position: relative;
+  left: 210px;
+  top: -450px;
+  display: none;
+}
+
+/*中间轮播图*/
+
+.banner .middle {
+  width: 100%;
+  height: 440px;
+  float: left;
+}
+
+.banner .middle .middleInner {
+  height: 100%;
+  margin-top: 10px;
+  margin-left: 220px;
+  margin-right: 260px;
+  position: relative;
+}
+
+.banner .middle .middleInner .imgBox {
+  width: 100%;
+  height: 100%;
+}
+
+.banner .middle .middleInner .imgBox .img1 {
+  width: 100%;
+  height: 100%;
+  background: url("../img/focus-carousel/1.png") center no-repeat;
+  background-size: 100% 100%;
+  float: left;
+  display: none;
+}
+
+.banner .middle .middleInner .imgBox .img2 {
+  width: 100%;
+  height: 100%;
+  background: url("../img/focus-carousel/2.jpg") center no-repeat;
+  background-size: 100% 100%;
+  float: left;
+  display: none;
+}
+
+.banner .middle .middleInner .imgBox .img3 {
+  width: 100%;
+  height: 100%;
+  background: url("../img/focus-carousel/3.jpg") center no-repeat;
+  background-size: 100% 100%;
+  float: left;
+  display: none;
+}
+
+.banner .middle .middleInner .imgBox .img4 {
+  width: 100%;
+  height: 100%;
+  background: url("../img/focus-carousel/4.jpg") center no-repeat;
+  background-size: 100% 100%;
+  float: left;
+  display: none;
+}
+
+.banner .middle .middleInner .imgBox .img5 {
+  width: 100%;
+  height: 100%;
+  background: url("../img/focus-carousel/5.jpg") center no-repeat;
+  background-size: 100% 100%;
+  float: left;
+  display: none;
+}
+
+.banner .middle .middleInner .imgBox .imgActive {
+  display: block;
+}
+
+.banner .middle .middleInner .button {
+  width: 50px;
+  height: 80px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  cursor: pointer;
+}
+
+.banner .middle .middleInner .prev {
+  left: 0;
+  background: url("../img/focus-carousel/pre2.png") center no-repeat;
+}
+
+.banner .middle .middleInner .next {
+  right: 0;
+  background: url("../img/focus-carousel/pre.png") center no-repeat;
+}
+
+.banner .middle .middleInner .button:hover {
+  background-color: #333;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.banner .middle .middleInner .dots {
+  width: 130px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 20px auto;
+}
+
+.banner .middle .middleInner .dots div {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(131, 136, 138, 0.6);
+  float: left;
+  margin: 4px 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.9);
+}
+
+.banner .middle .middleInner .dots div.dotActive {
+  background-color: #FFF;
+  box-shadow: 0 0 0 1px rgba(131, 136, 138, 0.9);
+}
+
+/*右侧生活服务*/
+
+.banner .right {
+  width: 250px;
+  float: left;
+  margin-left: -250px;
+  margin-top: 10px;
+}
+
+.banner .right .paper {
+  width: 248px;
+  height: 185px;
+  font-size: 12px;
+  border: 1px solid #CDD0D4;
+}
+
+.banner .right .paper div {
+  margin: 11px;
+}
+
+.banner .right .paper div span {
+  margin-left: 5px;
+}
+
+.banner .right .paper div .red {
+  color: red;
+  font-size: 16px;
+}
+
+.banner .right .paper div .linght {
+  color: #9B9B9B;
+  position: relative;
+  left: 127px;
+}
+
+.banner .right .paper div .bold {
+  font-weight: bold;;
+}
+
+.banner .right .paper .news:hover span{
+  color: red;
+}
+
+.banner .right .grid {
+  width: 249px;
+  height: 185px;
+  display: table;
+  border-collapse: collapse;
+}
+
+.banner .right .grid .row {
+  display: table-row;
+  border: 1px solid #CDD0D4;
+  border-top: none;
+}
+
+.banner .right .grid .row .cell {
+  width: 62px;
+  display: table-cell;
+  border: 1px solid #CDD0D4;
+  border-top: none;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.banner .right .grid .row .cell img {
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin: 0 auto;
+}
+
+.banner .right .grid .row .cell span {
+  display: block;
+  color: #9B9B9B;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.banner .right .grid .row .cell a:hover span {
+  color: red;
+}
+
+.banner .right .img {
+  width: 100%;
+  height: 67px;
+  background: url("../img/a.png") center no-repeat;
+  background-size: 100% 100%;
+}

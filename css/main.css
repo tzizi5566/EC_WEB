@@ -1,0 +1,16 @@
+/*全局样式*/
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: '微软雅黑';
+  color: #07111B;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  min-width: 1100px;
+}
