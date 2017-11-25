@@ -1,5 +1,5 @@
 ## 仿电商网站首页 ##
-:point_right: [Link](https://tzizi5566.github.io/WebExercise-6/)
+:point_right: [demo](https://tzizi5566.github.io/EC_WEB/)
 
 ## PIC ##
 ![pic](./img/index.png)
